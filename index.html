@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore Prompt Sora Supreme v2025.08</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <h1>Sora Prompt Generator</h1>
+                <span class="version">v2025.08</span>
+            </div>
+            <div class="header-actions">
+                <button id="saveBtn"><i class="fas fa-save"></i> Salva</button>
+                <button id="resetBtn"><i class="fas fa-redo"></i> Reset</button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-layer-group"></i> Layer</h3>
+                    <nav class="layer-nav">
+                        <button class="layer-btn active" data-layer="fondamentale">
+                            <i class="fas fa-cube"></i> Fondamentale (40%)
+                        </button>
+                        <button class="layer-btn" data-layer="visivo">
+                            <i class="fas fa-eye"></i> Visivo (25%)
+                        </button>
+                        <button class="layer-btn" data-layer="tecnico">
+                            <i class="fas fa-cogs"></i> Tecnico (20%)
+                        </button>
+                        <button class="layer-btn" data-layer="sensoriale">
+                            <i class="fas fa-hand-sparkles"></i> Sensoriale (15%)
+                        </button>
+                    </nav>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-chart-line"></i> Performance</h3>
+                    <div class="metrics">
+                        <div class="metric">
+                            <span class="metric-label">Coerenza</span>
+                            <span class="metric-value" id="coherence">0%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Dettaglio</span>
+                            <span class="metric-value" id="detail">0%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Originalità</span>
+                            <span class="metric-value" id="originality">0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-magic"></i> AI Co-Pilot</h3>
+                    <div class="ai-suggestions" id="aiSuggestions">
+                        <div class="suggestion">
+                            <i class="fas fa-lightbulb"></i>
+                            <p>Aggiungi dettagli sensoriali per migliorare l'impatto</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Form Container -->
+            <div class="form-container">
+                <!-- Layer Fondamentale -->
+                <div class="layer-section active" id="fondamentale">
+                    <h2><i class="fas fa-cube"></i> Layer Fondamentale (40%)</h2>
+                    
+                    <div class="form-group">
+                        <label>ENV: Ambiente (minimo 15 elementi sensoriali)</label>
+                        <textarea id="env" rows="4" placeholder="Descrivi l'ambiente con dettagli sensoriali..."></textarea>
+                        <div class="char-count"><span id="envCount">0</span>/15 elementi</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>THEME: Concetto centrale</label>
+                        <input type="text" id="theme" placeholder="Concetto principale...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Sotto-temi (3)</label>
+                        <div class="sub-themes">
+                            <input type="text" class="sub-theme" placeholder="Sotto-tema 1">
+                            <input type="text" class="sub-theme" placeholder="Sotto-tema 2">
+                            <input type="text" class="sub-theme" placeholder="Sotto-tema 3">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>PROTAGONIST: Caratteristiche</label>
+                        <div class="protagonist-traits">
+                            <div class="trait-group">
+                                <h4>Fisiche</h4>
+                                <input type="text" placeholder="Età">
+                                <input type="text" placeholder="Altezza">
+                                <input type="text" placeholder="Tratti principali">
+                            </div>
+                            <div class="trait-group">
+                                <h4>Psicologiche</h4>
+                                <textarea rows="3" placeholder="Caratteristiche psicologiche..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Layer Visivo -->
+                <div class="layer-section" id="visivo">
+                    <h2><i class="fas fa-eye"></i> Layer Visivo (25%)</h2>
+                    
+                    <div class="form-group">
+                        <label>STYLE_A: Tecniche artistiche</label>
+                        <div class="art-styles">
+                            <input type="text" id="mainStyle" placeholder="Tecnica principale">
+                            <input type="text" class="secondary-style" placeholder="Tecnica secondaria 1">
+                            <input type="text" class="secondary-style" placeholder="Tecnica secondaria 2">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>ARCH: Ambiente architettonico</label>
+                        <textarea id="arch" rows="3" placeholder="Descrivi l'ambiente architettonico..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>PALETTE: Colori esadecimali</label>
+                        <div class="color-palette">
+                            <input type="color" class="color-picker" value="#000000">
+                            <input type="color" class="color-picker" value="#FFFFFF">
+                            <input type="color" class="color-picker" value="#FF0000">
+                            <input type="color" class="color-picker" value="#00FF00">
+                            <input type="color" class="color-picker" value="#0000FF">
+                        </div>
+                        <textarea id="colorPsychology" rows="2" placeholder="Psicologia del colore..."></textarea>
+                    </div>
+                </div>
+
+                <!-- Layer Tecnico -->
+                <div class="layer-section" id="tecnico">
+                    <h2><i class="fas fa-cogs"></i> Layer Tecnico (20%)</h2>
+                    
+                    <div class="form-group">
+                        <label>CAM: Movimenti camera</label>
+                        <div class="camera-movements">
+                            <select id="cameraMovement">
+                                <option value="">Seleziona movimento</option>
+                                <option value="panoramic">Panoramico</option>
+                                <option value="tracking">Tracking</option>
+                                <option value="dolly">Dolly</option>
+                                <option value="crane">Crane</option>
+                                <option value="handheld">Handheld</option>
+                            </select>
+                            <input type="text" id="cameraParams" placeholder="Parametri tecnici...">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>LIGHT: Illuminazione</label>
+                        <textarea id="lighting" rows="3" placeholder="Descrivi l'illuminazione e effetti luminosi..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>FX: Effetti speciali</label>
+                        <div class="fx-effects">
+                            <div class="fx-item">
+                                <input type="text" placeholder="Effetto 1">
+                                <select class="fx-priority">
+                                    <option value="high">Alta</option>
+                                    <option value="medium">Media</option>
+                                    <option value="low">Bassa</option>
+                                </select>
+                            </div>
+                            <div class="fx-item">
+                                <input type="text" placeholder="Effetto 2">
+                                <select class="fx-priority">
+                                    <option value="high">Alta</option>
+                                    <option value="medium">Media</option>
+                                    <option value="low">Bassa</option>
+                                </select>
+                            </div>
+                            <button type="button" id="addFxBtn"><i class="fas fa-plus"></i> Aggiungi effetto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Layer Sensoriale -->
+                <div class="layer-section" id="sensoriale">
+                    <h2><i class="fas fa-hand-sparkles"></i> Layer Sensoriale (15%)</h2>
+                    
+                    <div class="form-group">
+                        <label>MOOD: Atmosfera</label>
+                        <textarea id="mood" rows="3" placeholder="Descrivi l'atmosfera e l'evoluzione emotiva..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>TEXTURE: Dettagli tattili</label>
+                        <div class="texture-details">
+                            <select id="textureResolution">
+                                <option value="8K">8K</option>
+                                <option value="16K">16K</option>
+                            </select>
+                            <textarea id="textureDesc" rows="3" placeholder="Descrivi i dettagli tattili..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>COLOR_TECH: Tecnologie colore</label>
+                        <textarea id="colorTech" rows="3" placeholder="Descrivi le tecnologie colore e transizioni dinamiche..."></textarea>
+                    </div>
+                </div>
+
+                <!-- Generate Button -->
+                <div class="generate-section">
+                    <button id="generateBtn" class="generate-btn">
+                        <i class="fas fa-magic"></i> Genera Prompt Supreme
+                    </button>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <h2><i class="fas fa-file-alt"></i> Prompt Generato</h2>
+                <div class="prompt-output" id="promptOutput"></div>
+                <div class="results-actions">
+                    <button id="copyBtn"><i class="fas fa-copy"></i> Copia</button>
+                    <button id="downloadBtn"><i class="fas fa-download"></i> Scarica TXT</button>
+                    <button id="shareBtn"><i class="fas fa-share"></i> Condividi</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
