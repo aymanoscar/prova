@@ -1,10 +1,10 @@
 {
   "type": "module",
-  "name": "sora-prompt-generator",
+  "name": "kimi-workspace",
   "version": "1.0.0",
-  "description": "Generatore di prompt per Sora",
+  "description": "Workspace Kimi Code - Ayman",
   "scripts": {
-    "lint": "eslint script.js"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "eslint": "^9.0.0"
