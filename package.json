@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "sora-prompt-generator",
+  "version": "1.0.0",
+  "description": "Generatore di prompt per Sora",
+  "scripts": {
+    "lint": "eslint script.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
