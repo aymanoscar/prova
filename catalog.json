@@ -443,6 +443,65 @@
         "security"
       ],
       "added_at": "2026-03-06"
+    },
+    {
+      "id": "agent-sdk",
+      "name": "Claude Agent SDK",
+      "description": "Build autonomous agents with built-in tools (file, web, shell), session resumption, hooks, and subagent orchestration. TypeScript + Python.",
+      "category": "development",
+      "source": "local",
+      "stars": null,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "agent-sdk",
+        "autonomous",
+        "agentic",
+        "orchestration",
+        "subagents",
+        "hooks"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "mcp-orchestrator",
+      "name": "MCP Orchestrator",
+      "description": "Connect agents to external services via MCP: GitHub, Sentry, PostgreSQL, Playwright, Notion. CLI and SDK patterns. Custom in-process tools.",
+      "category": "development",
+      "source": "local",
+      "stars": null,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "github",
+        "playwright",
+        "orchestration",
+        "external-tools"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "multi-agent",
+      "name": "Multi-Agent Teams",
+      "description": "Design teams of specialized subagents (security+perf+style reviewers, research+build pipeline, MCP+agents). Includes tool restriction patterns and session resumption.",
+      "category": "development",
+      "source": "local",
+      "stars": null,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "multi-agent",
+        "subagents",
+        "parallel",
+        "orchestration",
+        "pipeline"
+      ],
+      "added_at": "2026-03-06"
     }
   ]
 }
