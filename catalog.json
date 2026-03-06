@@ -1,0 +1,448 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-03-06",
+  "skills": [
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "description": "20+ battle-tested core skills for the full SDLC: TDD, debugging, refactoring, code review",
+      "category": "development",
+      "source": "https://github.com/obra/superpowers",
+      "stars": 500,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "tdd",
+        "debugging",
+        "refactor",
+        "code-review",
+        "sdlc"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "wshobson-commands",
+      "name": "Production Slash Commands",
+      "description": "Collection of production-ready slash commands with multi-agent orchestration for software development",
+      "category": "development",
+      "source": "https://github.com/wshobson/commands",
+      "stars": 1700,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "slash-commands",
+        "multi-agent",
+        "automation",
+        "production"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "awesome-slash",
+      "name": "Awesome Slash",
+      "description": "11 plugins, 40 agents, 26 skills for Claude Code. Each command works standalone. Includes /deslop, /ship, /next-task",
+      "category": "development",
+      "source": "https://github.com/avifenesh/awesome-slash",
+      "stars": 300,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "agents",
+        "plugins",
+        "automation",
+        "workflow"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "claude-command-suite",
+      "name": "Claude Command Suite",
+      "description": "216+ slash commands, 12 skills, 54 AI agents. Covers code review, testing, deployment, GitHub-Linear sync",
+      "category": "development",
+      "source": "https://github.com/qdhenry/Claude-Command-Suite",
+      "stars": 400,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "slash-commands",
+        "agents",
+        "github",
+        "testing",
+        "deployment"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "cc-sessions",
+      "name": "CC Sessions",
+      "description": "Opinionated extension set: hooks, subagents, commands, task and git management infrastructure",
+      "category": "development",
+      "source": "https://github.com/punkpeye/cc-sessions",
+      "stars": 1500,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "hooks",
+        "subagents",
+        "git",
+        "task-management"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "trail-of-bits-security",
+      "name": "Trail of Bits Security Skills",
+      "description": "Professional security skills: CodeQL analysis, Semgrep rules, vulnerability detection, audit workflows",
+      "category": "security",
+      "source": "https://github.com/trailofbits/skills",
+      "stars": 300,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "security",
+        "codeql",
+        "semgrep",
+        "audit",
+        "vulnerability"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "ffuf-web-fuzzing",
+      "name": "FFUF Web Fuzzing Skill",
+      "description": "Web fuzzing guidance for penetration testing using ffuf. For authorized security testing only.",
+      "category": "security",
+      "source": "https://github.com/jthack/ffuf_claude_skill",
+      "stars": 150,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "security",
+        "pentest",
+        "fuzzing",
+        "web-security"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "cc-devops-skills",
+      "name": "DevOps Skills",
+      "description": "Detailed DevOps skills with validations, generators, and shell scripts for infrastructure code (Terraform, K8s, Docker)",
+      "category": "devops",
+      "source": "https://github.com/akin-ozer/cc-devops-skills",
+      "stars": 200,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "devops",
+        "terraform",
+        "kubernetes",
+        "docker",
+        "infra"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "claude-scientific-skills",
+      "name": "Scientific Skills",
+      "description": "Ready-to-use skills for research, science, engineering, analysis, finance. Includes specialized library support.",
+      "category": "scientific",
+      "source": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "stars": 200,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "science",
+        "research",
+        "finance",
+        "engineering",
+        "analysis"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "anthropic-pdf",
+      "name": "PDF Skill (Official)",
+      "description": "Extract text/tables, create PDFs, merge/split documents, handle forms. Official Anthropic skill.",
+      "category": "creative",
+      "source": "https://github.com/anthropics/skills",
+      "stars": 1000,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "pdf",
+        "documents",
+        "official",
+        "anthropic"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "anthropic-xlsx",
+      "name": "Excel/XLSX Skill (Official)",
+      "description": "Create and edit Excel spreadsheets with formulas, pivot tables, and data analysis. Official Anthropic skill.",
+      "category": "creative",
+      "source": "https://github.com/anthropics/skills",
+      "stars": 1000,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "excel",
+        "xlsx",
+        "spreadsheet",
+        "official",
+        "anthropic"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "anthropic-pptx",
+      "name": "PowerPoint/PPTX Skill (Official)",
+      "description": "Create and edit PowerPoint presentations with layouts, templates, and charts. Official Anthropic skill.",
+      "category": "creative",
+      "source": "https://github.com/anthropics/skills",
+      "stars": 1000,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "powerpoint",
+        "pptx",
+        "presentation",
+        "official",
+        "anthropic"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "canvas-design",
+      "name": "Canvas Design Skill (Official)",
+      "description": "Design visual art in PNG and PDF formats using canvas. Official Anthropic skill.",
+      "category": "creative",
+      "source": "https://github.com/anthropics/skills",
+      "stars": 1000,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "design",
+        "canvas",
+        "art",
+        "png",
+        "official",
+        "anthropic"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "frontend-slides",
+      "name": "Frontend Slides",
+      "description": "Animation-rich HTML presentations with transitions and visual effects",
+      "category": "creative",
+      "source": "https://github.com/zarazhangrui/frontend-slides",
+      "stars": 150,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "presentation",
+        "html",
+        "animation",
+        "frontend"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "playwright-skill",
+      "name": "Playwright Browser Automation",
+      "description": "General-purpose browser automation using Playwright: testing, scraping, UI interaction",
+      "category": "testing",
+      "source": "https://github.com/lackeyjb/playwright-skill",
+      "stars": 250,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "playwright",
+        "browser",
+        "testing",
+        "automation",
+        "scraping"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "claude-skills-marketplace",
+      "name": "Skills Marketplace Collection",
+      "description": "Git automation, test fixing, and code review skills for software engineering workflows",
+      "category": "testing",
+      "source": "https://github.com/mhattingpete/claude-skills-marketplace",
+      "stars": 200,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "git",
+        "testing",
+        "code-review",
+        "automation"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "webapp-testing",
+      "name": "Web App Testing (Official)",
+      "description": "Test local web applications using Playwright. Official Anthropic skill.",
+      "category": "testing",
+      "source": "https://github.com/anthropics/skills",
+      "stars": 1000,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "testing",
+        "playwright",
+        "webapp",
+        "official",
+        "anthropic"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "mcp-builder",
+      "name": "MCP Server Builder (Official)",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers. Official Anthropic skill.",
+      "category": "development",
+      "source": "https://github.com/anthropics/skills",
+      "stars": 1000,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "mcp",
+        "server",
+        "protocol",
+        "official",
+        "anthropic"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "skill-creator",
+      "name": "Skill Creator (Official)",
+      "description": "Interactive tool for building new Claude Code skills with Q&A guidance. Meta-skill for creating skills.",
+      "category": "development",
+      "source": "https://github.com/anthropics/skills",
+      "stars": 1000,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "meta",
+        "skill-creation",
+        "official",
+        "anthropic"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "agentsys",
+      "name": "AgentSys",
+      "description": "Workflow automation: task-to-production, PR management, code cleanup, performance investigation, drift detection, multi-agent code review",
+      "category": "development",
+      "source": "https://github.com/avifenesh/agentsys",
+      "stars": 250,
+      "rating": null,
+      "tested": false,
+      "installed": false,
+      "tags": [
+        "workflow",
+        "automation",
+        "pr",
+        "multi-agent",
+        "production"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "skill-review",
+      "name": "Code Review",
+      "description": "Thorough code review: correctness, security, performance, readability, maintainability",
+      "category": "development",
+      "source": "local",
+      "stars": null,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "code-review",
+        "quality",
+        "security"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "git-commit",
+      "name": "Git Commit Automation",
+      "description": "Stage, write conventional commit messages, and push changes safely",
+      "category": "development",
+      "source": "local",
+      "stars": null,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "git",
+        "commit",
+        "conventional-commits"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "tdd",
+      "name": "Test-Driven Development",
+      "description": "Enforce TDD: Red-Green-Refactor cycle for features and bug fixes",
+      "category": "development",
+      "source": "local",
+      "stars": null,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "tdd",
+        "testing",
+        "quality"
+      ],
+      "added_at": "2026-03-06"
+    },
+    {
+      "id": "docker-skill",
+      "name": "Docker & Containers",
+      "description": "Dockerfile, Docker Compose, container debugging and security best practices",
+      "category": "devops",
+      "source": "local",
+      "stars": null,
+      "rating": null,
+      "tested": true,
+      "installed": true,
+      "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "security"
+      ],
+      "added_at": "2026-03-06"
+    }
+  ]
+}
