@@ -1,7 +1,7 @@
-# CLAUDE.md — Ayman Workspace
+# CLAUDE.md — Ayman Workspace Claude Tuning
 
 ## Project
-- Name: ayman-workspace
+- Name: ayman-workspace-claude-tuning
 - Type: module (ESM)
 - Language: JavaScript
 - Linter: ESLint 9 (flat config)

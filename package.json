@@ -1,8 +1,8 @@
 {
   "type": "module",
-  "name": "ayman-workspace",
+  "name": "ayman-workspace-claude-tuning",
   "version": "1.0.0",
-  "description": "Ayman's workspace powered by Claude Code",
+  "description": "Ayman's workspace — Claude Code tuning & enhancement hub",
   "scripts": {
     "lint": "eslint ."
   },
