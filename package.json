@@ -1,8 +1,8 @@
 {
   "type": "module",
-  "name": "kimi-workspace",
+  "name": "ayman-workspace",
   "version": "1.0.0",
-  "description": "Workspace Kimi Code - Ayman",
+  "description": "Ayman's workspace powered by Claude Code",
   "scripts": {
     "lint": "eslint ."
   },

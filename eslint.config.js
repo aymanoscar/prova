@@ -1,26 +1,25 @@
 export default [
   {
-    files: ["**/*.js"],
+    files: ['**/*.js'],
     rules: {
-      "no-unused-vars": "warn",
-      "no-undef": "warn",
-      "semi": ["warn", "always"],
-      "no-console": "off"
+      'no-unused-vars': 'warn',
+      'no-undef': 'warn',
+      'semi': ['warn', 'always'],
+      'no-console': 'off',
     },
     languageOptions: {
       ecmaVersion: 2022,
+      sourceType: 'module',
       globals: {
-        document: "readonly",
-        window: "readonly",
-        navigator: "readonly",
-        console: "readonly",
-        alert: "readonly",
-        confirm: "readonly",
-        URL: "readonly",
-        localStorage: "readonly",
-        Blob: "readonly",
-        setTimeout: "readonly"
-      }
-    }
-  }
+        console: 'readonly',
+        process: 'readonly',
+        setTimeout: 'readonly',
+        setInterval: 'readonly',
+        clearTimeout: 'readonly',
+        clearInterval: 'readonly',
+        URL: 'readonly',
+        fetch: 'readonly',
+      },
+    },
+  },
 ];
